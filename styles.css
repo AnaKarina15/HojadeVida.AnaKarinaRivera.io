@@ -80,7 +80,7 @@ header h2 {
 /* LAYOUT DOS COLUMNAS */
 .layout {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* izquierda / derecha */
+  grid-template-columns: 1.1fr 2fr; /* izquierda / derecha */
   gap: 25px;
 }
 
@@ -177,7 +177,7 @@ footer {
 
 @media (max-width: 768px) {
 
-  /* Pasa a una sola columna en pantallas pequeñas */
+
   .layout {
     grid-template-columns: 1fr;
   }
